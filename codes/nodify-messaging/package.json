@@ -1,0 +1,33 @@
+{
+  "name": "nodify-messaging",
+  "version": "0.0.1",
+  "description": "Telegram BOT messaging",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index",
+    "tsc": "tsc",
+    "clean": "rm -rf dist/ || true",
+    "build": "npm run clean && npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -b tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.7",
+    "node-telegram-bot-api": "^0.61.0",
+    "ts-node": "^10.9.1"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/RatulSaqibKhan/telegram-messaging"
+  },
+  "license": "ISC",
+  "author": {
+    "email": "ratulkhan.jhenidah@gmail.com",
+    "name": "Md. Nazmus Saqib Khan",
+    "url": "https://github.com/RatulSaqibKhan/RatulSaqibKhan"
+  }
+}
